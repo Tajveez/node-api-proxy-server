@@ -7,5 +7,24 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
-  }
+  },
+  "name": "api-proxy-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tajveez/node-api-proxy-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tajveez/node-api-proxy-server/issues"
+  },
+  "homepage": "https://github.com/Tajveez/node-api-proxy-server#readme",
+  "description": ""
 }
