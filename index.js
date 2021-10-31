@@ -10,7 +10,7 @@ const app = express();
 // Rate Limiting
 const limiter = rateLimiter({
   windowMs: 10 * 60 * 1000,
-  max: 5,
+  max: 100,
   message: "Api rate limit exhausted",
 });
 
